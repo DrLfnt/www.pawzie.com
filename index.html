@@ -13,8 +13,8 @@
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="msapplication-TileImage" content="icons/icon-144.png">
-        <meta name="msapplication-TileColor" content="#009587">
+        <meta name="msapplication-TileImage" content="icons/icon-144.png" />
+        <meta name="msapplication-TileColor" content="#009587" />
         <meta name="HandheldFriendly" content="true" />
         <meta name="MobileOptimized" content="320" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
@@ -25,37 +25,38 @@
         <!-- App Name and Title -->
             <!-- Metas -->
         <!-- Titulo -->
-        <title title="pawzie - Tienda para mascotas - Pet shop">pawzie</title>
+        <title title="Pawzie">Pawzie</title>
         <!-- Titulo -->
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico"/>
+        <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico" />
         <!-- Favicon -->
         <!-- Android Icon -->
-        <link rel="icon" sizes="196x196" href="icons/icon-196.png"/>
-        <link rel="icon" sizes="128x128" href="icons/icon-128.png"/>
+        <link rel="icon" sizes="196x196" href="icons/icon-196.png" />
+        <link rel="icon" sizes="128x128" href="icons/icon-128.png" />
         <!-- Android Icon -->
         <!-- Apple Icon -->
         <link rel="apple-touch-startup-image" href="icons/icon.png" />
-        <link rel="apple-touch-icon" href="icons/icon.png"/>
-        <link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png"/>
-        <link rel="apple-touch-icon-precomposed" sizes="128x128" href="icons/icon-128.png"/>
+        <link rel="apple-touch-icon" href="icons/icon.png" />
+        <link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="128x128" href="icons/icon-128.png" />
         <!-- Apple Icon -->
         <!-- Apple Retina Icon -->
-        <link rel="apple-touch-icon" sizes="76x76" href="icons/icon-76.png"/>
-        <link rel="apple-touch-icon" sizes="120x120" href="icons/icon-120.png"/>
-        <link rel="apple-touch-icon" sizes="152x152" href="icons/icon-152.png"/>
+        <link rel="apple-touch-icon" sizes="76x76" href="icons/icon-76.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="icons/icon-120.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="icons/icon-152.png" />
         <!-- Apple Retina Icon -->
-        <link rel="author" type="text/plain" href="humans.txt">
+        <link rel="author" type="text/plain" href="humans.txt" />
         <style>
-            @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css);
-            @import 'css/ripples.min.css';
+            @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
             @import 'css/material-wfont.min.css';
+            @import 'css/ripples.min.css';
             @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Pacifico|Roboto);
+            @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
             html {
                 font-size: 18px !important;
             }
             body {
-                background: #EEEEEE url(.images/bgCarton.jpg) no-repeat center center fixed;
+                background: #EEEEEE url(images/bgCarton.jpg) no-repeat center center fixed;
                 background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -69,6 +70,26 @@
                 -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
                 -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
                 box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+            }
+            .logo {
+                background-color: rgba(0,0,0,.6);
+                border-radius: 2.5em 0 2.5em 0;
+            }
+            .elementCentered {
+                margin: 0 auto;
+            }
+            .logoMargin {
+                margin-top: 2em;
+                margin-bottom: 2em;
+            }
+            .marginTopH2 {
+            	margin-top: 2em;
+            }
+            .maxWidth250 {
+            	max-width: 250px;
+            }
+            .btn-success {
+                color: #fff !important;
             }
             /* fonts */
             .gloria {
@@ -97,6 +118,7 @@
             /* colors pawzie */
             /* fx */
             .fxOutlineWhite {
+                font-size: 2.5rem;
                 text-shadow:-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;    
             }
             /* fx */
@@ -119,7 +141,7 @@
         </style>
         <![endif]-->
         <!-- Robots.txt -->
-        <meta name="robots" content="index,follow">
+        <meta src="robots.txt" name="robots" content="index,follow" />
         <!-- Robots.txt -->
         <script>
         // iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
@@ -129,13 +151,11 @@
 
     <body class="clearfix">
 
-        <div class="container-fluid">
+        <div class="container">
                 
-                <div class="hidden row">
+                <div class="hidden-xs row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
-                        <center>
-                            <img src="http://disainco.com/pawzie/images/pawzieLogotipo.svg" class="img-responsive" alt="pawzie">
-                        </center>
+                        <img src="http://disainco.com/pawzie/images/pawzieLogotipo.svg" class="logo logoMargin elementCentered img-responsive" alt="pawzie">
                     </div>
                 </div>
 
@@ -149,11 +169,11 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="javascript:void(0)"><img src="http://disainco.com/pawzie/images/pawzieLogotipo.svg" height="35px" alt="Brand"></a>
+                                <a class="visible-xs navbar-brand" href="javascript:void(0)"><img src="http://disainco.com/pawzie/images/pawzieLogotipo.svg" height="35px" alt="Brand"></a>
                             </div>
                             <div class="navbar-collapse collapse navbar-responsive-collapse">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="javascript:void(0)">Link</a></li>
+                                    <li><a href="javascript:void(0)">Link</a></li>
                                     <li><a href="javascript:void(0)">Link</a></li>
                                     <li class="dropdown">
                                         <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Link <b class="caret"></b></a>
@@ -180,6 +200,7 @@
                                             <li><a href="javascript:void(0)">Link</a></li>
                                         </ul>
                                     </li>
+                                    <li><a href="javascript:void(0)"><i class="mdi-maps-local-grocery-store"></i> Shop</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -187,9 +208,59 @@
                     </div>
                 </div>
 
-                <section class="row">
+				<section class="row">
                     <section class="col-md-12">
                         <h2 class="text-center gloria fxOutlineWhite rosa">
+                            Muebles
+                        </h2>
+                        <center>
+                            <figure class="col-sm-6 col-md-4">
+                                <img class="maxWidth250 img-responsive img-circle img-thumbnail" src="images/table1.jpg" alt="Table Hipster">
+                                <figcaption>
+                                    <h2 class="pacifico">Table</h2>
+                                    <p class="roboto">
+                                        Mark territory jump launch to pounce upon little yarn mouse, bare fangs at toy run hide litter box until treats are fed for flop over, find something else more interesting nap all day, but meowing non stop for food use lap as chair.
+                                    </p>
+                                    <p class="pull-right">
+                                        <a href="javascript:void(0)" class="btn btn-success btn-fab btn-raised mdi-maps-local-grocery-store"></a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </center>
+                        <center class="visible-xs hidden-sm visible-md visible-lg">
+                            <figure class="col-sm-6 col-md-4">
+                                <img class="maxWidth250 img-responsive img-circle img-thumbnail" src="images/table2.jpg" alt="Table Hipster">
+                                <figcaption>
+                                    <h2 class="pacifico">Table</h2>
+                                    <p class="roboto">
+                                        Mark territory jump launch to pounce upon little yarn mouse, bare fangs at toy run hide litter box until treats are fed for flop over, find something else more interesting nap all day, but meowing non stop for food use lap as chair.
+                                    </p>
+                                    <p class="pull-right">
+                                        <a href="javascript:void(0)" class="btn btn-success btn-fab btn-raised mdi-maps-local-grocery-store"></a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </center>
+                        <center>
+                            <figure class="col-sm-6 col-md-4">
+                                <img class="maxWidth250 img-responsive img-circle img-thumbnail" src="images/table3.jpg" alt="Table Hipster">
+                                <figcaption>
+                                    <h2 class="pacifico">Table</h2>
+                                    <p class="roboto">
+                                        Mark territory jump launch to pounce upon little yarn mouse, bare fangs at toy run hide litter box until treats are fed for flop over, find something else more interesting nap all day, but meowing non stop for food use lap as chair.
+                                    </p>
+                                    <p class="pull-right">
+                                        <a href="javascript:void(0)" class="btn btn-success btn-fab btn-raised mdi-maps-local-grocery-store"></a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </center>
+                    </section>
+                </section>
+
+                <section class="row">
+                    <section class="col-md-12">
+                        <h2 class="marginTopH2 text-center gloria fxOutlineWhite rosa">
                             Casas para mascotas
                         </h2>
                         <center>
@@ -199,7 +270,10 @@
                                     <h2 class="pacifico">Pet's House</h2>
                                     <p class="roboto">
                                         Mark territory jump launch to pounce upon little yarn mouse, bare fangs at toy run hide litter box until treats are fed for flop over, find something else more interesting nap all day, but meowing non stop for food use lap as chair.
-                                    </p> 
+                                    </p>
+                                    <p class="pull-right">
+                                        <a href="javascript:void(0)" class="btn btn-success btn-fab btn-raised mdi-maps-local-grocery-store"></a>
+                                    </p>
                                 </figcaption>
                             </figure>
                         </center>
@@ -210,7 +284,10 @@
                                     <h2 class="pacifico">Pet's House</h2>
                                     <p class="roboto">
                                         Mark territory jump launch to pounce upon little yarn mouse, bare fangs at toy run hide litter box until treats are fed for flop over, find something else more interesting nap all day, but meowing non stop for food use lap as chair.
-                                    </p> 
+                                    </p>
+                                    <p class="pull-right">
+                                        <a href="javascript:void(0)" class="btn btn-success btn-fab btn-raised mdi-maps-local-grocery-store"></a>
+                                    </p>
                                 </figcaption>
                             </figure>
                         </center>
@@ -221,15 +298,17 @@
                                     <h2 class="pacifico">Pet's House</h2>
                                     <p class="roboto">
                                         Mark territory jump launch to pounce upon little yarn mouse, bare fangs at toy run hide litter box until treats are fed for flop over, find something else more interesting nap all day, but meowing non stop for food use lap as chair.
-                                    </p> 
+                                    </p>
+                                    <p class="pull-right">
+                                        <a href="javascript:void(0)" class="btn btn-success btn-fab btn-raised mdi-maps-local-grocery-store"></a>
+                                    </p>
                                 </figcaption>
                             </figure>
                         </center>
                     </section>
                 </section>
 
-            <!-- Buttons
-================================================== -->
+            <!-- Buttons -->
             <div class="hidden bs-docs-section">
                 <div class="page-header">
                     <div class="row">
@@ -357,8 +436,7 @@
                 </div>
             </div>  
 
-            <!-- Typography
-================================================== -->
+            <!-- Typography -->
             <div class="bs-docs-section">
 
                 <div class="row">
@@ -424,8 +502,7 @@
 
             </div>
 
-            <!-- Tabs
-================================================== -->
+            <!-- Tabs -->
             <div class="bs-docs-section">
 
                 <div class="row">
@@ -469,8 +546,7 @@
 
             </div>
 
-            <!-- Indicators
-================================================== -->
+            <!-- Indicators -->
             <div class="bs-docs-section">
 
                 <div class="row">
@@ -496,8 +572,7 @@
 
             </div>
 
-            <!-- Containers
-================================================== -->
+            <!-- Containers -->
             <div class="bs-docs-section">
 
                 <div class="row">
